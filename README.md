@@ -40,7 +40,7 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run build-only`      | Build your production site without running typechecks     |
 | `pnpm run type-check` | Run the typecheck |
 
-## ✨ How to deploy to AlternateFutures
+## ✨ How to deploy to Alternate Futures
 
 ### 1. Create a `fleek.json` config file:
 You can configure this site deployment using [AlternateFutures CLI]() and running:
