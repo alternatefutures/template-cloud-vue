@@ -1,4 +1,4 @@
-# Vue + Fleek Starter Kit
+# Vue + AlternateFutures Starter Kit
 
 ![image](https://github.com/fleekxyz/vue-template/assets/55561695/aae35d6b-7c60-4e55-a6dc-987cb24df978)
 
@@ -40,13 +40,13 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run build-only`      | Build your production site without running typechecks     |
 | `pnpm run type-check` | Run the typecheck |
 
-## ⚡ How to deploy to Fleek
+## ⚡ How to deploy to AlternateFutures
 
 ### 1. Create a `fleek.json` config file:
-You can configure this site deployment using [Fleek CLI]() and running:
+You can configure this site deployment using [AlternateFutures CLI]() and running:
 ```
  > fleek sites init
-   WARN! Fleek CLI is in beta phase, use it under your own responsibility
+   WARN! AlternateFutures CLI is in beta phase, use it under your own responsibility
    ? Choose one of the existing sites or create a new one. › 
    ❯ Create a new site
 ```
@@ -63,7 +63,7 @@ fleek sites deploy
 ```
 After running it you will get an output like this:
 ```
- WARN! Fleek CLI is in beta, use it at your own discretion
+ WARN! AlternateFutures CLI is in beta, use it at your own discretion
  > Success! Deployed!
  > Site IPFS CID: Qmbv2NT91iPkXaoim5CSwdR8MLEoquRPcsdZncZ5QaxAqn
 
@@ -72,8 +72,8 @@ After running it you will get an output like this:
  ```
 
 ### Extra features
-- **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.fleek.xyz/services/sites/#continuous-integration-ci)
-- **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.fleek.xyz/services/domains/)
+- **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.alternatefutures.ai/services/sites/#continuous-integration-ci)
+- **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.alternatefutures.ai/services/domains/)
 
 
 ### Keep in mind:
@@ -134,4 +134,4 @@ export default router
 
 ## 👀 Want to learn more?
 
-Feel free to check [Fleek Documentation](https://docs.fleek.xyz/) & [Vue Documentation](https://vuejs.org/guide/introduction.html).
+Feel free to check [AlternateFutures Documentation](https://docs.alternatefutures.ai/) & [Vue Documentation](https://vuejs.org/guide/introduction.html).
