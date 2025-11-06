@@ -1,6 +1,8 @@
-# Vue + AlternateFutures Starter Kit
+<div align="center">
+  <img src="./assets/hero-logo.svg" alt="Alternate Futures" width="600" />
+</div>
 
-![image](https://github.com/fleekxyz/vue-template/assets/55561695/aae35d6b-7c60-4e55-a6dc-987cb24df978)
+# Vue + AlternateFutures Starter Kit
 
 ## 🚀 Project Structure
 
@@ -47,7 +49,7 @@ You can configure this site deployment using [AlternateFutures CLI]() and runnin
 ```
  > fleek sites init
    WARN! AlternateFutures CLI is in beta phase, use it under your own responsibility
-   ? Choose one of the existing sites or create a new one. › 
+   ? Choose one of the existing sites or create a new one. ›
    ❯ Create a new site
 ```
 It will prompt you for a `name`, `dist` directory location & `build command`
@@ -135,3 +137,13 @@ export default router
 ## 👀 Want to learn more?
 
 Feel free to check [AlternateFutures Documentation](https://docs.alternatefutures.ai/) & [Vue Documentation](https://vuejs.org/guide/introduction.html).
+
+## License
+
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## Acknowledgements
+
+The initial architecture and conceptual foundation of this project were derived from a fork of the Fleek.xyz platform.
+
+As our project's requirements led to significant architectural changes, we have diverged from the original fork. However, we remain grateful to the Fleek team for their pioneering open-source contributions to decentralized application hosting and infrastructure.
