@@ -42,12 +42,12 @@ All commands are run from the root of the project, from a terminal:
 
 ## ✨ How to deploy to Alternate Futures
 
-### 1. Create a `fleek.json` config file:
+### 1. Create an `af.json` config file:
 You can configure this site deployment using [AlternateFutures CLI]() and running:
 ```
- > fleek sites init
+ > af sites init
    WARN! AlternateFutures CLI is in beta phase, use it under your own responsibility
-   ? Choose one of the existing sites or create a new one. › 
+   ? Choose one of the existing sites or create a new one. ›
    ❯ Create a new site
 ```
 It will prompt you for a `name`, `dist` directory location & `build command`
@@ -56,10 +56,10 @@ It will prompt you for a `name`, `dist` directory location & `build command`
 - `build command`: Command to build your site, this will be used to deploy the latest version either by CLI or Github Actions
 
 ### 2. Deploy the site
-After configuiring your `fleek.json` file, you can deployt the site by running
+After configuring your `af.json` file, you can deploy the site by running
 
 ```
-fleek sites deploy
+af sites deploy
 ```
 After running it you will get an output like this:
 ```
@@ -72,8 +72,8 @@ After running it you will get an output like this:
  ```
 
 ### Extra features
-- **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.alternatefutures.ai/services/sites/#continuous-integration-ci)
-- **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.alternatefutures.ai/services/domains/)
+- **Continuous Integration (CI):** `af sites ci` [Documentation.](https://docs.alternatefutures.ai/services/sites/#continuous-integration-ci)
+- **Adding custom domains:** `af domains create` [Documentation.](https://docs.alternatefutures.ai/services/domains/)
 
 
 ### Keep in mind:

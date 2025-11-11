@@ -5,13 +5,13 @@ import { RouterView } from 'vue-router'
 <template>
   <header>
     <div class="hero-top">
-      <img src='@/assets/fleekLogo.svg' height="87" />
+      <img src='@/assets/afLogo.svg' height="87" />
       <img src='@/assets/plus.svg' />
       <img src='@/assets/logo.svg' height="57" />
     </div>
 
     <p className='description'>
-      This is a template for creating a React site build it with Vite and deploying it on Fleek.
+      This is a template for creating a Vue site build it with Vite and deploying it on Alternate Futures.
     </p>
   </header>
 

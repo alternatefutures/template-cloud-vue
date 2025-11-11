@@ -5,17 +5,17 @@ import Card from '../components/Card.vue'
 <template>
   <main>
     <ul role="list" className='card-list'>
-      <Card href="https://docs.fleek.xyz/" title="Fleek Documentation"
-        body="Learn about Fleek & the available services by cheking our official docs.">
-        <img height="31" width="31" src="@/assets/fleekMark.svg" />
+      <Card href="https://docs.alternatefutures.ai/" title="Alternate Futures Documentation"
+        body="Learn about Alternate Futures & the available services by checking our official docs.">
+        <img height="31" width="31" src="@/assets/afMark.svg" />
       </Card>
 
       <Card href="https://vuejs.org/guide/introduction.html" title="Vue Documentation" body="Learn about Vue in their official docs.">
         <img height="31" width="31" src="@/assets/logo.svg" />
       </Card>
 
-      <Card href="https://blog.fleek.xyz/" title="Fleek Blog" body="Checkout our Blog for more information about Fleek.">
-        <img height="31" width="31" src="@/assets/fleekMark.svg" />
+      <Card href="https://blog.alternatefutures.ai/" title="Alternate Futures Blog" body="Checkout our Blog for more information about Alternate Futures.">
+        <img height="31" width="31" src="@/assets/afMark.svg" />
       </Card>
 
       <Card href="https://vitejs.dev/guide/" title="Vite Documentation"
