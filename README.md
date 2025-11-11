@@ -2,7 +2,7 @@
   <img src="./assets/hero-logo.svg" alt="Alternate Futures" width="600" />
 </div>
 
-# Vue + AlternateFutures Starter Kit
+# Vue + Alternate Futures Starter Kit
 
 A blank starter kit for Vue.js, ready to be deployed on Alternate Futures to decentralized storage networks (IPFS, Filecoin, Arweave).
 
